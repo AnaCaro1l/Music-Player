@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imgs/download.jfif);
+    background-size: 100%;
+}
+
+#player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    height: 620px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 15px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.descricao {
+    width: 300px;
+}
+
+.duracao {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra {
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 6px;
+    width: 0%;
+    background-color: #333;
+}
+
+.ponto {
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.player {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 20px ;
+    margin-top: 10px;
+}
+
+.tempo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.botao-play, .botao-pause {
+    font-size: 55px;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+}
